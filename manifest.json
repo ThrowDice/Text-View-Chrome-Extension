@@ -1,0 +1,12 @@
+{
+  "name": "Text View",
+  "version": "1.0",
+  "background_page": "background.html",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "text.png",
+    "name": "Convert this page to text view"
+  }
+}

@@ -1,0 +1,10 @@
+<html>
+<head>
+<script>
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    var tabUrl = encodeURIComponent(tab.url);
+    chrome.tabs.update(tab.id, {url: "http://www.instapaper.com/text?u=" + tabUrl });
+  });
+</script>
+</head>
+</html>
